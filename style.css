@@ -1,0 +1,197 @@
+body {
+  background-image: url('https://i.imgur.com/zNxsGno.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  text-align: center;
+  max-width: 800px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(195, 215, 223, 0.8);
+  border: 8px solid #2a752a;
+  border-radius: 30px;
+  width: 800px;
+  
+}
+
+#title {
+  margin: 0;
+  padding-top: 28px;
+  font-size: 50px;
+  color: rgba(11, 11, 11, 0.642);
+  
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(195, 215, 223, 0.8);
+  border: 8px solid #2a752a;
+  border-radius: 30px;
+  margin-top: 40px;
+  width: 800px;
+  
+}
+
+main p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: rgba(11, 11, 11, 0.677);
+  margin: 20px 20px;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+button {
+  margin-top: 15px;
+  margin-bottom: 18px;
+  margin-left: 50%;
+  font-size: 28px;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 8px;
+  border-radius: 30px;
+  width: 300px;
+  height: 80px;
+}
+
+button:hover {
+  background-color: #2a752a;
+}
+
+#workout-container {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: 180px; /* add a fixed height */
+  width: 800px; /* add a fixed width */
+  margin-top: -20px;
+  justify-content: center;
+}
+
+#workout-container:hover {
+  transform: scale(1.05);
+}
+
+#workout-container p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border: 4px solid #333;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 40px 20px;
+  border-radius: 50px;
+  height: 35px;
+  line-height: 40px; /* add line-height */
+  
+
+}
+
+#heading-container {
+  text-align: center;
+}
+
+#workout-title {
+ 
+  font-size: 25px;
+  color: rgba(11, 11, 11, 0.77);
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5; /* add line-height */
+  font-weight: normal;
+  margin: 15px;
+  
+
+}
+
+#workout-section {
+  background-color: rgba(195, 215, 223, 0.8);
+  border: 8px solid #2a752a;
+  border-radius: 30px;
+  max-width: 800px;
+  max-height: 210px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#timer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+}
+
+#timer-container {
+  background-color: rgba(195, 215, 223, 0.8);
+  border: 8px solid #2a752a;
+  border-radius: 30px;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  padding: 50px;
+  
+}
+
+#timer {
+  font-size: 80px;
+  font-weight: normal;
+  color: rgba(11, 11, 11, 0.677);
+  text-align: center;
+  margin-top: 7px;
+}
+
+#start-timer-container {
+  background-color: rgba(195, 215, 223, 0.8);
+  border: 8px solid #2a752a;
+  border-radius: 30px;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  padding: 50px;
+  
+}
+
+.timer-button {
+  font-size: 28px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: 8px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  width: 280px;
+  height: 100px;
+}
+
+.timer-button:hover {
+  background-color: #2a752a;
+  
+}
+
+
+
+
+
+
