@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Two-Minute Workout Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="title">Two-Minute Workout Generator</h1>
+    </div>
+    <main>
+      <p>Click the button below to generate a two-minute workout exercise</p>
+    
+      <button onclick="generateWorkout()">Generate Workout</button>
+    </main>
+    
+    <section id="workout-section">
+      <div id="heading-container">
+        <h2 id="workout-title">Perform the first exercise for 40 seconds, followed by a 20-second rest, and then do the second exercise for the remaining minute.</h2>
+      </div>
+      <div id="workout-container">
+        <p id="workout"></p>
+      </div>
+    </section>
+    
+    <section id="timer-section">
+      <div id="start-timer-container">
+        <button class="timer-button" id="start-timer-button" onclick="startTimer()">Start Timer</button>
+      </div>
+      <div id="timer-container">
+        <div id="timer">00:00</div>
+      </div>
+    </section>
+  </body>
+</html>
